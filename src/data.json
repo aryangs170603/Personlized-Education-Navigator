@@ -1,0 +1,107 @@
+{
+  "data": {
+    "describe": {
+      "heading": "Which describes you best?",
+      "p": "This will help us personalize your experience.",
+      "option": [
+        {
+          "main": "Student",
+          "sub": "or soon to be enrolled",
+          "img": "images/desc_1.png"
+        },
+        {
+          "main": "Professional",
+          "sub": "pursuing a career",
+          "img": "images/desc_2.png"
+        },
+        {
+          "main": "Parent",
+          "sub": "of a school-age child",
+          "img": "images/desc_3.png"
+        },
+        {
+          "main": "Lifelong learner",
+          "img": "images/desc_4.png"
+        },
+        {
+          "main": "Teacher",
+          "img": "images/desc_5.png"
+        },
+        {
+          "main": "Other",
+          "img": "images/desc_6.png"
+        }
+      ]
+    },
+    "interest": {
+      "heading": "Which are you most interested in?",
+      "p": "Choose just once. This will help us get you started (but won't limit your experience)",
+      "option": [
+        {
+          "main": "Learning specific skills to advance my career",
+          "img": "images/int_1.png"
+        },
+        {
+          "main": "Exploring new topics I'm interested in",
+          "img": "images/int_2.png"
+        },
+        {
+          "main": "Refreshing my math foundations",
+          "img": "images/int_3.png"
+        },
+        {
+          "main": "Exercising my brain to stay sharp",
+          "img": "images/int_4.png"
+        },
+        {
+          "main": "Something else",
+          "img": "images/int_5.png"
+        }
+      ]
+    },
+    "place": {
+      "heading": "You're in the right place",
+      "p": "Brilliant gets you hands-on to help improve your professional skills and knowledge. You'll interact with concepts and solve fun problems in math,science and computer science.",
+      "img": "images/right_banner.png",
+      "display" : true
+    },
+    "comfort": {
+      "heading": "What is your math comfort level?",
+      "p": "Choose the highest level you feel confident in — you can always adjust later.",
+      "boxes": [
+        {
+          "subject": "Arithmetic",
+          "level": "Introductory",
+          "img": "images/math-1.png"
+        },
+        {
+          "subject": "Basic Algebra",
+          "level": "Foundational",
+          "img": "images/math-2.png"
+        },
+        {
+          "subject": "Intermediate Algebra",
+          "level": "Intermediate",
+          "img": "images/math-3.png"
+        },
+        {
+          "subject": "Calculus",
+          "level": "Advanced",
+          "img": "images/math-4.png"
+        }
+      ]
+    },
+    "way": {
+      "heading": "You're on your way!",
+      "p": "Through its engaging and well-structured courses, Brilliant has taught me mathematical concepts that I previously struggled to understand. I now feel confident approaching both technical job interviews and real world problem solving situations.",
+      "author": "— Jacob S.",
+      "img": "images/way_banner.png"
+    },
+    "paths": {
+      "heading": "Learning paths based on your answers",
+      "p": "Choose one to get started. You can switch anytime.",
+      "img": "images/paths.png",
+      "boxes": ["Foundational Math", "Mathematical Thinking"]
+    }
+  }
+}

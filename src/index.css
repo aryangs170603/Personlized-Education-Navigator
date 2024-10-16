@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: grid;
+  place-items: center;
+}
+
+.customBorder {
+  border-color: rgba(255, 99, 71, 0.4);
+}
+
+/* Top loader line */
+.loader-line {
+  width: 70%;
+  height: 5px;
+  position: absolute;
+  background-color: #ddd;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 0;
+  margin-top: 20px;
+}
+
+.loader-line::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: var(--before-width); /* Use the custom property */
+  height: 5px;
+  background-color: #179e7e;
+  transition: all 0.5s ease;
+}
+
+/* Custom badge */
+.badge {
+  position: absolute;
+  background-color: #f2b946;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: -15px;
+  border-radius: 16px;
+  padding: 6px 12px;
+  font-weight: 700;
+  transition: all 0.5s ease;
+}
